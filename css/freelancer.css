@@ -605,3 +605,7 @@ footer .footer-below {
 .col-lg-4 > img {
     padding-left: 5px;
 }
+
+.list-inline-item{
+    padding: 5px;
+}
