@@ -609,3 +609,12 @@ footer .footer-below {
 .list-inline-item{
     padding: 5px;
 }
+
+.bigButton {
+    margin-left: 10px;
+    margin-right: 10px; 
+    background-color:#0B203B; 
+    width:100%; 
+    height:40px; 
+    text-align:center;
+}
