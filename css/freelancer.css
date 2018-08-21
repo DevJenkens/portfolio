@@ -601,3 +601,7 @@ footer .footer-below {
         display: none;
     }
 }
+
+.col-lg-4 > img {
+    padding-left: 5px;
+}
