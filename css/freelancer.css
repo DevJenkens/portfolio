@@ -596,6 +596,10 @@ footer .footer-below {
     border-bottom-color: #6598D6 !important;
 }
 
+.tooltip.bs-tooltip-top .arrow:before {
+    border-top-color: #6598D6 !important;
+}
+
 @media (max-width:768px) {
     .tooltip-inner, .tooltip.bs-tooltip-top .arrow:before {
         display: none;
@@ -610,11 +614,23 @@ footer .footer-below {
     padding: 5px;
 }
 
+.tooltip-inner {
+    text-align: center;
+    font-size: 18px;
+    max-width:100%;
+}
+
 .bigButton {
-    margin-left: 10px;
-    margin-right: 10px; 
-    background-color:#0B203B; 
-    width:100%; 
-    height:40px; 
     text-align:center;
+    background-color:#0B203B;
+    border-radius:3px;
+    padding:15px;
+}
+
+.bigButton a {
+    color: #E9F3FF;
+}
+
+.bigButton a:hover {
+    color: #6598D6;
 }
