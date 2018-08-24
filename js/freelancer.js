@@ -1,4 +1,4 @@
-(function($) {
+(function ($) {
   "use strict"; // Start of use strict
 
   // Smooth scrolling using jQuery easing
@@ -13,7 +13,7 @@
         return false;
       }
     }
-  });
+   });
 
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
@@ -43,3 +43,12 @@
     });
 
 })(jQuery); // End of use strict
+
+window.addEventListener('load', function () {
+    var allimages = document.getElementsByTagName('img');
+    for (var i = 0; i < allimages.length; i++) {
+        if (allimages[i].getAttribute('data-src')) {
+            allimages[i].setAttribute('src', allimages[i].getAttribute('data-src'));
+        }
+    }
+}, false);
