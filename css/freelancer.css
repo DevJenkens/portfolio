@@ -634,3 +634,6 @@ footer .footer-below {
 .bigButton a:hover {
     color: #6598D6;
 }
+canvas {
+    position: fixed !important;
+ }
